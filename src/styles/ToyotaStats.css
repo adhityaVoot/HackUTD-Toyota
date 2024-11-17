@@ -1,0 +1,116 @@
+.toyota-stats {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+  }
+  
+  .toyota-stats h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .toyota-stats p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #CCCCCC;
+    margin-bottom: 40px;
+  }
+  
+  .toyota-models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .toyota-card {
+    background-color: #1F2937;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .toyota-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 12px 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .toyota-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .toyota-card h2 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  
+  .toyota-card p {
+    font-size: 1rem;
+    color: #CCCCCC;
+  }
+  
+  /* Graphs Section */
+  .toyota-graphs {
+    text-align: center;
+  }
+  
+  .toyota-graphs h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FF5722;
+  }
+  
+  .graphs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Side-by-side layout for graphs */
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .graph-card {
+    background-color: #1F2937;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .graph-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .graph-card h3 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+  
+  .graph-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .graph-card p {
+    font-size: 1rem;
+    color: #CCCCCC;
+  }
+  
